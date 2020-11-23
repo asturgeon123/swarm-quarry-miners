@@ -62,7 +62,7 @@ term.clear()
 term.setCursorPos(1,1)
 print("Please enter the address of the host server below.")
 write("> ")
-local host = http://51.222.9.245:8080
+local host = "http://51.222.9.245:8080"
 config.set("host",host)
 print("What should the name of the swarm be?")
 write("> ")
